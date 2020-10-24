@@ -1,0 +1,27 @@
+{
+  "type":"video.upload.created",
+  "request_id":null,
+  "object":{
+    "type":"upload",
+    "id":"tS7fwJBvYz77WPczQ218QgafQtn9S601zcQjLXpVY0101o"
+  },
+  "id":"99870317-1941-49b9-a7f2-4be060c4aca4",
+  "environment":{
+    "name":"erik.pena - Test",
+    "id":"bg3p79"
+  },
+  "data":{
+    "url":"https://storage.googleapis.com/video-storage-us-east4-uploads/tS7fwJBvYz77WPczQ218QgafQtn9S601zcQjLXpVY0101o?Expires=1603491566&GoogleAccessId=mux-direct-upload%40mux-cloud.iam.gserviceaccount.com&Signature=rcEFtshwNK3VpOMtdJQgnjqPlue1BnznNxkb94qTQE3Dpqqzn4fpKF6bVLQomKJsIjXIJGyoU2j1if9uHAEQiZxM8Jo2crf7shA3pyYNh3yLwGBAsxQRHQ55SxKPQ4pxu0Hb%2FcHV97wHGW%2BVw1QGRlie4YtHr%2F4ZX8HqjiNs1H34WjX3k55P8WA6YQ7QqPuduUmfS%2FZPLC0%2Fw1KHYwWpCYcSCqaqCGoJdfMSWIP2QbBal%2B72SG4BGHb6m3gisx4lbGkfyf0VhbyMhJ3CqzzO37NB7CdL%2BSSnQRnFmaFyIxVvL4uNX7z3%2BXk7TZ05t33aNngc%2FAj25lyLgB7vAQGbLw%3D%3D&upload_id=ABg5-UxRvVBtwOD-6tjyFgjWVLnbAd49qLqx-6fQ3ka9ZliVAQRHfNtXG1Pw79Alk9J4u95QPYuakHf0hauE-4IyoIE",
+    "timeout":3600,
+    "status":"waiting",
+    "new_asset_settings":{
+      "playback_policies":["public"]
+    },
+    "id":"tS7fwJBvYz77WPczQ218QgafQtn9S601zcQjLXpVY0101o",
+    "cors_origin":"http://localhost:3000"
+  },
+  "created_at":"2020-10-23T21:19:26.000000Z",
+  "attempts":[],
+  "accessor_source":null,
+  "accessor":null
+}
