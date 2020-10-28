@@ -8,7 +8,11 @@ body,
 
 body {
   font-family: Akkurat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.56;
+  font-weight: 400;
   margin: 0;
+  color: #383838;
 }
 
 #root {
