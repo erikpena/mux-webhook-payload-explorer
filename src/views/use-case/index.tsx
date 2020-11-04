@@ -34,10 +34,10 @@ const renderers = { link: (props: any) => {
 const UseCaseView = () => {
   const { id } = useParams<ParamTypes>();
 
-  const md = menuConfig.find((entry:any) => entry.id === Number(id));
+  const mc = menuConfig[Number(id)];
 
   return <ContainerStyled>
-    <ReactMarkdownStyled renderers={renderers}>{md?.description || ''}</ReactMarkdownStyled>
+    <ReactMarkdownStyled renderers={renderers}>{mc?.description || ''}</ReactMarkdownStyled>
   </ContainerStyled>
 };
 

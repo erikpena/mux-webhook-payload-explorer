@@ -32,7 +32,7 @@ const App = () => {
       <LayoutStyled>
         <Menu />
         <Switch>
-          <Route path="/payload/:event">
+          <Route path="/payload/:id">
             <PayloadView />
           </Route>
           <Route path="/use-case/:id">

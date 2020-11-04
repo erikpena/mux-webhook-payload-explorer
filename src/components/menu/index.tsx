@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import menuConfig from './menu-config';
 
@@ -41,11 +41,16 @@ const LiItemStyled = styled.li`
   align-items: center;
 `;
 
-const LinkStyled = styled(Link)`
+interface LinkStyledProps {
+  isActive: boolean;
+}
+
+const LinkStyled = styled(Link)<LinkStyledProps>`
   text-decoration: none;
-  color: inherit;
+  color: ${props => props.isActive ? '#fb2491' : 'inherit' };
   transition: 0.3s;
   line-height: 1.7rem;
+  font-weight: ${props => props.isActive ? 'bold' : 'normal' };
 
   &:hover {
     color: #fb2491;
@@ -67,19 +72,20 @@ const BadgeStyled = styled.span`
 `;
 
 const Menu = () => {
+  const { pathname } = useLocation();
   const lis:any[] = [];
   
   let stepCounter = 1;
 
   for(let i = 0; i < menuConfig.length; i++) {
-    const { type, file, id } = menuConfig[i];
+    const { type, title } = menuConfig[i];
     const Comp = type === 'header' ? LiHeaderStyled : LiItemStyled;
-    const to = type === 'item' ? `/payload/${file}` : `/use-case/${id}`;
+    const to = type === 'item' ? `/payload/${i}` : `/use-case/${i}`;
     const badge = type === 'item' ? <BadgeStyled>{stepCounter}</BadgeStyled> : null;
 
     lis.push(<Comp key={i}>
       {badge}
-      <LinkStyled to={to}>{menuConfig[i].title}</LinkStyled>
+      <LinkStyled to={to} isActive={to === pathname}>{title}</LinkStyled>
     </Comp>);
 
     stepCounter = type === 'item' ? stepCounter+1 : 1;

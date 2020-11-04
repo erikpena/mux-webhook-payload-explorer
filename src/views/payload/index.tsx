@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useParams } from "react-router-dom";
 
 import Editor from '../../components/editor';
+import menuConfig from './../../components/menu/menu-config';
 
 const ContainerStyled = styled.div`
   display: flex;
@@ -11,13 +12,15 @@ const ContainerStyled = styled.div`
 `;
 
 interface ParamTypes {
-  event: string
+  id: string
 }
 
 const PayloadView = () => {
-  const { event } = useParams<ParamTypes>();
+  const { id } = useParams<ParamTypes>();
 
-  const value = require(`./../../sample-sets/${event}.json`);
+  const mc = menuConfig[Number(id)];
+
+  const value = require(`./../../sample-sets/${mc.file}.json`);
 
   return <ContainerStyled>
     <Editor value={JSON.stringify(value, null, 2)} />

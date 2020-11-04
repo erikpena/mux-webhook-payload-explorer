@@ -18,13 +18,17 @@ const ContainerStyled = styled.div`
   }
 `;
 
+const LinkStyled = styled(Link)`
+  display: flex;
+`;
+
 const SvgStyled = styled.svg`
-  height: 2.2rem;
+  height: 1.2rem;
 `;
 
 const Header = () => {
   return <ContainerStyled>
-    <Link to="/">
+    <LinkStyled to="/">
       <SvgStyled viewBox="0 0 215 70" version="1.1">
         <defs>
           <linearGradient x1="-213.617434%" y1="50.0143293%" x2="100.003663%" y2="50.0143293%" id="linearGradient-1">
@@ -90,7 +94,7 @@ const Header = () => {
           </g>
         </g>
       </SvgStyled>
-    </Link>
+    </LinkStyled>
     <div>
       <span>Webhook Payload Explorer</span>
     </div>
