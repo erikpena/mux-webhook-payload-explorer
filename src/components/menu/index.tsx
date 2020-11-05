@@ -8,6 +8,7 @@ const ContainerStyled = styled.nav`
   background-color: #eee;
   overflow-y: scroll;
   padding: 1rem;
+  min-height: 10rem;
 
   @media (max-width: 767px) {
     max-height: 10rem;
