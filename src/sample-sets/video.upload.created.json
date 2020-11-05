@@ -1,27 +1,29 @@
 {
-  "type":"video.upload.created",
-  "request_id":null,
-  "object":{
-    "type":"upload",
-    "id":"tS7fwJBvYz77WPczQ218QgafQtn9S601zcQjLXpVY0101o"
-  },
-  "id":"99870317-1941-49b9-a7f2-4be060c4aca4",
-  "environment":{
-    "name":"erik.pena - Test",
-    "id":"bg3p79"
-  },
-  "data":{
-    "url":"https://storage.googleapis.com/video-storage-us-east4-uploads/tS7fwJBvYz77WPczQ218QgafQtn9S601zcQjLXpVY0101o?Expires=1603491566&GoogleAccessId=mux-direct-upload%40mux-cloud.iam.gserviceaccount.com&Signature=rcEFtshwNK3VpOMtdJQgnjqPlue1BnznNxkb94qTQE3Dpqqzn4fpKF6bVLQomKJsIjXIJGyoU2j1if9uHAEQiZxM8Jo2crf7shA3pyYNh3yLwGBAsxQRHQ55SxKPQ4pxu0Hb%2FcHV97wHGW%2BVw1QGRlie4YtHr%2F4ZX8HqjiNs1H34WjX3k55P8WA6YQ7QqPuduUmfS%2FZPLC0%2Fw1KHYwWpCYcSCqaqCGoJdfMSWIP2QbBal%2B72SG4BGHb6m3gisx4lbGkfyf0VhbyMhJ3CqzzO37NB7CdL%2BSSnQRnFmaFyIxVvL4uNX7z3%2BXk7TZ05t33aNngc%2FAj25lyLgB7vAQGbLw%3D%3D&upload_id=ABg5-UxRvVBtwOD-6tjyFgjWVLnbAd49qLqx-6fQ3ka9ZliVAQRHfNtXG1Pw79Alk9J4u95QPYuakHf0hauE-4IyoIE",
-    "timeout":3600,
-    "status":"waiting",
-    "new_asset_settings":{
-      "playback_policies":["public"]
+  "payload": {
+    "type": "video.upload.created",
+    "request_id": null,
+    "object": {
+      "type": "upload",
+      "id": "MksbBSugGGHtHvP01YEiKl2sfs701xhBibUHrwRCJgSXo"
     },
-    "id":"tS7fwJBvYz77WPczQ218QgafQtn9S601zcQjLXpVY0101o",
-    "cors_origin":"http://localhost:3000"
-  },
-  "created_at":"2020-10-23T21:19:26.000000Z",
-  "attempts":[],
-  "accessor_source":null,
-  "accessor":null
+    "id": "594d90a0-d1f3-4ba5-a82c-602263833171",
+    "environment": {
+      "name": "Some cool env name",
+      "id": "bg3p21"
+    },
+    "data": {
+      "url": "https://storage.googleapis.com/video-storage-us-east1-uploads/MksbBSugGGHtHvP01YEiKl2sfs701xhBibUHrwRCJgSXo?Expires=1604555657&GoogleAccessId=mux-direct-upload%40mux-cloud.iam.gserviceaccount.com&Signature=tCtaCZPQPAZVojYS6zI6clsfIIauXgzbA%2FOIsiEgdQOy8RohjmqeQMew%2B6TNNWLMXs5RC4zS2Vo5S5lEGccYkdP2R8vtDrK5ORVExTSSDTshwIN9al15wPgTgzW4TauGb0wqE0KrCIre8ubSudoBRqf42xSMN0llU88x2S62qhZGXL4qCelkVd9Fm3t1L3MFBdves6q0Rm98%2FGsOw2eu15t5h%2FdHyRt2DpVwuC%2FyQs%2BwXXW0MS6BuB33IoqUU2LnmAHHs%2FGgFk588oGHhX%2Fkw4Gxl%2BvE0cxfjPhBdI3T1t5kDurTlAvaAL%2B7TJzP5pN8tO1QpVeWha6JjDOP4kj5Bg%3D%3D&upload_id=ABg5-Uw3p0QJXYtxxPtLhoPeMgaKL3kAM7G-Q29CeZiwnvAwAyCH14mwkXM4k9Heq0rUjqF4sO6t--VBH94dthLY1SdF5rZwcA",
+      "timeout": 3600,
+      "status": "waiting",
+      "new_asset_settings": {
+        "playback_policies": ["public"]
+      },
+      "id": "MksbBSugGGHtHvP01YEiKl2sfs701xhBibUHrwRCJgSXo",
+      "cors_origin": "http://example.origin.tld"
+    },
+    "created_at": "2020-11-05T04:41:22.000000Z",
+    "attempts": [],
+    "accessor_source": null,
+    "accessor": null
+  }
 }

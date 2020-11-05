@@ -1,28 +1,32 @@
 {
-  "type":"video.asset.created",
-  "request_id":null,
-  "object":{
-    "type":"asset",
-    "id":"Qa02Lf02Sn3k01aQPRvivt8RqMrG9P9tIY01yB1fJYjSYIg"
-  },
-  "id":"c71e78c3-23cc-43a1-8caa-0b79bfc12ec9",
-  "environment":{
-    "name":"some_cool_name",
-    "id":"some_cool_id"
-  },
-  "data":{
-    "status":"preparing",
-    "playback_ids":[{
-      "policy":"public",
-      "id":"ddip8zm2YblbaLW01eqqQPoTsfy01fmZZtNTvHwAU987I"
-    }],
-    "mp4_support":"none",
-    "master_access":"none",
-    "id":"Qa02Lf02Sn3k01aQPRvivt8RqMrG9P9tIY01yB1fJYjSYIg",
-    "created_at":1603412895
-  },
-  "created_at":"2020-10-23T00:28:15.000000Z",
-  "attempts":[],
-  "accessor_source":null,
-  "accessor":null
+  "payload": {
+    "type": "video.asset.created",
+    "request_id": null,
+    "object": {
+      "type": "asset",
+      "id": "fy3vqn7C02DKdtEAs8wFfXO01GX00YBc4zrjiDNDU1PaiQ"
+    },
+    "id": "711eaa5a-fb70-4c59-b1b3-1051ceb4a43d",
+    "environment": {
+      "name": "Some cool env name",
+      "id": "bg3p21"
+    },
+    "data": {
+      "status": "preparing",
+      "playback_ids": [
+        {
+          "policy": "public",
+          "id": "bWPykzuurdv00Ry4jEJaPNhiek7hQKet2RoYg02IbOYBc"
+        }
+      ],
+      "mp4_support": "none",
+      "master_access": "none",
+      "id": "fy3vqn7C02DKdtEAs8wFfXO01GX00YBc4zrjiDNDU1PaiQ",
+      "created_at": 1604551372
+    },
+    "created_at": "2020-11-05T04:42:52.000000Z",
+    "attempts": [],
+    "accessor_source": null,
+    "accessor": null
+  }
 }

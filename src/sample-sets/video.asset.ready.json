@@ -1,46 +1,53 @@
 {
-  "type":"video.asset.ready",
-  "request_id":null,
-  "object":{
-    "type":"asset",
-    "id":"Qa02Lf02Sn3k01aQPRvivt8RqMrG9P9tIY01yB1fJYjSYIg"
-  },
-  "id":"fb1916b5-20b0-4825-ae7b-a56a49aa5d36",
-  "environment":{
-    "name":"erik.pena - Test",
-    "id":"bg3p79"
-  },
-  "data":{
-    "tracks":[{
-      "type":"video",
-      "max_width":1920,
-      "max_height":1080,
-      "max_frame_rate":29.97,
-      "id":"svRPePrOy84nXweIFrbzGjOwZDAhqaLA7w01rYdk7emo",
-      "duration":23.8238
-    },{
-      "type":"audio",
-      "max_channels":2,
-      "max_channel_layout":"stereo",
-      "id":"gR02LesDDyIMUW2xpVjawOp02M9WhFgYchW6fO3cBuD4U",
-      "duration":23.823792
-    }],
-    "status":"ready",
-    "playback_ids":[{
-      "policy":"public",
-      "id":"ddip8zm2YblbaLW01eqqQPoTsfy01fmZZtNTvHwAU987I"
-    }],
-    "mp4_support":"none",
-    "max_stored_resolution":"HD",
-    "max_stored_frame_rate":29.97,
-    "master_access":"none",
-    "id":"Qa02Lf02Sn3k01aQPRvivt8RqMrG9P9tIY01yB1fJYjSYIg",
-    "duration":23.857167,
-    "created_at":1603412895,
-    "aspect_ratio":"16:9"
-  },
-  "created_at":"2020-10-23T00:28:19.000000Z",
-  "attempts":[],
-  "accessor_source":null,
-  "accessor":null
+  "payload": {
+    "type": "video.asset.ready",
+    "request_id": null,
+    "object": {
+      "type": "asset",
+      "id": "fy3vqn7C02DKdtEAs8wFfXO01GX00YBc4zrjiDNDU1PaiQ"
+    },
+    "id": "5919e475-f964-4c17-bee5-14466c854f50",
+    "environment": {
+      "name": "Some cool env name",
+      "id": "bg3p21"
+    },
+    "data": {
+      "tracks": [
+        {
+          "type": "video",
+          "max_width": 1920,
+          "max_height": 1080,
+          "max_frame_rate": 29.97,
+          "id": "wniKRRhghQDIxqUUzUE9uOMeI01e9XTKHRo1ln5QCQsE",
+          "duration": 23.8238
+        },
+        {
+          "type": "audio",
+          "max_channels": 2,
+          "max_channel_layout": "stereo",
+          "id": "67LPiymXptJn45JXyIiVQrm01NhqUFjRX1wIyg7inelY",
+          "duration": 23.823792
+        }
+      ],
+      "status": "ready",
+      "playback_ids": [
+        {
+          "policy": "public",
+          "id": "bWPykzuurdv00Ry4jEJaPNhiek7hQKet2RoYg02IbOYBc"
+        }
+      ],
+      "mp4_support": "none",
+      "max_stored_resolution": "HD",
+      "max_stored_frame_rate": 29.97,
+      "master_access": "none",
+      "id": "fy3vqn7C02DKdtEAs8wFfXO01GX00YBc4zrjiDNDU1PaiQ",
+      "duration": 23.857167,
+      "created_at": 1604551372,
+      "aspect_ratio": "16:9"
+    },
+    "created_at": "2020-11-05T04:42:54.000000Z",
+    "attempts": [],
+    "accessor_source": null,
+    "accessor": null
+  }
 }
